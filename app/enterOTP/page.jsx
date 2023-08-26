@@ -1,4 +1,4 @@
-import EnterOTP from "@/components/EnterOTP";
+import EnterOTP from "@/components/EnterTOTP";
 
 
 export default function FormOTP(){
