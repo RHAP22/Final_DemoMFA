@@ -1,7 +1,7 @@
 'use client'
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import QRImg from "@/components/Qrview";
+import QRImg from "../components/Qrview";
 export default function EnterOTP(){
 
     const [userId, setUserId] = useState(
