@@ -1,6 +1,5 @@
 'use client'
 import RegisterForm from "@/components/Register"
-import QRCode from "@/components/Qrview";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 export default function Register(){

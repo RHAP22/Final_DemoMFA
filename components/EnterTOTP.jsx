@@ -1,10 +1,7 @@
 'use client'
-import RegisterForm from "@/components/Register"
-import QRCode from "@/components/Qrview";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import QRImg from "@/components/Qrview";
-import { Result } from "postcss";
 export default function EnterOTP(){
 
     const [userId, setUserId] = useState(
