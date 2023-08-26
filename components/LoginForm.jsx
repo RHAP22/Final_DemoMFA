@@ -55,7 +55,7 @@ export default function LoginForm({setToken}) {
 
 
             <Link className="text-sm mt-3 text-right" href={"/register"}>
-            Don't have an account? <span 
+            Dont have an account? <span 
             className ="underline">Register</span>
                 </Link>
                 {/* <Link className="text-sm mt-3 text-right" href={"/Phone Number"}>

@@ -3,7 +3,7 @@ import RegisterForm from "@/components/Register"
 import QRCode from "@/components/Qrview";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-export default function enterOTP(){
+export default function EnterOTP(){
 
     const [userId, setUserId] = useState(
         window.localStorage.getItem('user_id') || ''
@@ -12,9 +12,8 @@ export default function enterOTP(){
     const [token, setToken] = useState(
         window.localStorage.getItem('access_token') || ''
     )
-
+const router = useRouter()
     if(userId == '' || token == '') {
-        const router = useRouter()
         alert('User ID or Token not found. Please Login first!')
         router.push('/')
     }

@@ -4,14 +4,15 @@ import QRCode from "@/components/Qrview";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import QRImg from "@/components/Qrview";
-export default function viewQR(){
+export default function ViewQR(){
 
     const [userId, setUserId] = useState(
         window.localStorage.getItem('user_id') || ''
     )
-
+    
+    const router = useRouter()
     if(userId == '') {
-        const router = useRouter()
+        
         alert('User ID not found. Please Login first!')
         router.push('/')
     }

@@ -1,7 +1,7 @@
 import RegisterForm from "@/components/Register";
 
 
-export default function RegisterForm(){
+export default function RForm(){
 
     return(
         <div>
