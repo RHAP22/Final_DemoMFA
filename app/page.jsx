@@ -1,5 +1,5 @@
 "use client"
-import LoginForm from "@/components/LoginForm";
+import LoginForm from "@/src/components/LoginForm";
 import { useEffect, useState } from "react";
 
 export default function Home() {

@@ -1,5 +1,5 @@
 'use client'
-import RegisterForm from "@/components/Register"
+import RegisterForm from "@/src/components/Register"
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 export default function Register(){

@@ -1,4 +1,4 @@
-import Success from "@/components/SuccessForm"
+import Success from "@/src/components/SuccessForm"
 
 
 export default function SuccessForm(){

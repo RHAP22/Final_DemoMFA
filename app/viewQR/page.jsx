@@ -1,4 +1,4 @@
-import QR from "@/components/Qrform"
+import QR from "@/src/components/Qrform"
 
 
 export default function SuccessForm(){

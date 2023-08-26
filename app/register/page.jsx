@@ -1,4 +1,4 @@
-import RegisterForm from "@/components/Register";
+import RegisterForm from "@/src/components/Register";
 
 
 export default function RForm(){
