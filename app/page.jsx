@@ -1,5 +1,5 @@
 "use client"
-import LoginForm from "@/components/loginform";
+import LoginForm from "@/components/LoginForm";
 import { useEffect, useState } from "react";
 import viewQR from "./viewQR/page";
 import QRImg from "@/components/qrview";
