@@ -2,7 +2,7 @@
 import LoginForm from "@/components/LoginForm";
 import { useEffect, useState } from "react";
 import viewQR from "./viewQR/page";
-import QRImg from "@/components/qrview";
+import QRImg from "@/components/Qrview";
 import { useRouter } from "next/navigation";
 
 export default function Home() {

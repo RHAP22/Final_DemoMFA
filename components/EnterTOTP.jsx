@@ -1,18 +1,18 @@
 'use client'
 import RegisterForm from "@/components/Register"
-import QRCode from "@/components/qrview";
+import QRCode from "@/components/Qrview";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import QRImg from "@/components/qrview";
+import QRImg from "@/components/Qrview";
 import { Result } from "postcss";
 export default function EnterOTP(){
 
     const [userId, setUserId] = useState(
         window.localStorage.getItem('user_id') || ''
     )
-
+    const router = useRouter()
     if(userId == '') {
-        const router = useRouter()
+       
         alert('User ID not found. Please Login first!')
         router.push('/')
     }
