@@ -5,7 +5,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import QRImg from "@/components/qrview";
 import { Result } from "postcss";
-export default function enterOTP(){
+export default function EnterOTP(){
 
     const [userId, setUserId] = useState(
         window.localStorage.getItem('user_id') || ''

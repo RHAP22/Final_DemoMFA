@@ -1,11 +1,11 @@
-import enterOTP from "@/components/enterOTP";
+import EnterOTP from "@/components/EnterOTP";
 
 
 export default function FormOTP(){
 
     return(
         <div>
-            <enterOTP/> 
+            <EnterOTP/> 
         </div>
     );
 }
