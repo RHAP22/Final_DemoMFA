@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect, useState } from "react";
 var qrcode = require("qrcode")
 export default function QRImg({userId}){

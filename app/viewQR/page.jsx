@@ -1,3 +1,4 @@
+"use client"
 import QR from "@/src/components/Qrform"
 
 

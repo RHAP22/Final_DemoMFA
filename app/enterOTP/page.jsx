@@ -1,3 +1,4 @@
+"use client"
 import EnterOTP from "@/src/components/EnterTOTP";
 
 
